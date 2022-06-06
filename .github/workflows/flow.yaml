@@ -13,4 +13,4 @@ jobs:
         with:
           who-to-greet: "Mona the octocat"
       - name: get the output time
-        run: echo "The time was ${{ steps.hello.output.time }}"
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
